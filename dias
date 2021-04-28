@@ -1,0 +1,123 @@
+void main() {
+  var dia = "viernes";
+switch(dia){
+case "lunes":
+print('           Cosco           ');
+print('***************************');  
+print('Dia de compra: $dia');
+print('***************************');       
+String r = ' Articulo No.';
+var num = 1;
+while (num < 7) {
+var todo = '$r $num';
+print(todo);
+num++; }
+double iva=6800*0.08;
+double descuento=6800*0.08;
+double subtotal=6800-descuento;
+double totalc=subtotal+iva;
+print('***************************');
+print('Articulos comprados: 6');
+print('Compra de: 6800');
+print('El descuento del 8% es: $descuento');
+print ('Sobtotal: $subtotal');
+print('Total de compra: $totalc');
+print('***************************');     
+break;
+            
+case "martes":
+print('           Cosco           ');
+print('***************************');  
+print('Dia de compra: $dia');
+print('***************************');       
+String r = ' Articulo No.';
+var num = 1;
+while (num < 4) {
+var todo = '$r $num';
+print(todo);
+num++;}
+double iva=4500*0.08;
+double descuento=4500*0.12;
+double subtotal=4500-descuento;
+double totalc=subtotal+iva;
+print('***************************');      
+print('Articulos comprados: 3');
+print('compra de: 4500');
+print('El descuento del 12% es: $descuento');
+print ('Sobtotal: $subtotal');
+print('Total de compra: $totalc');
+print('***************************');
+  break;
+      
+case "miercoles":
+print('           Cosco           ');
+print('***************************');  
+print('Dia de compra:$dia');
+print('***************************');         
+String r = ' Articulo No.';
+var num = 1;
+while (num < 11){
+var todo = '$r $num';
+print(todo);
+num++; }
+double iva=3300*0.08;
+double descuento=3300*0.06;
+double subtotal=3300-descuento;
+double totalc=subtotal+iva;
+print('***************************'); 
+print('Articulos comprados: 10');
+print('Compra de: 3300');
+print('El descuento del 6% es: $descuento');
+print ('Sobtotal: $subtotal');
+print('Total de compra: $totalc');
+print('***************************');      
+      break;
+      
+case "jueves":
+print('           Cosco           ');
+print('***************************');  
+print('Dia de compra:$dia');
+print('***************************');       
+String r = ' Articulo No.';
+var num = 1;
+while (num < 9){
+var todo = '$r $num';
+print(todo);
+num++; }
+double iva=5200*0.08;
+double descuento=5200*0.10;
+double subtotal=5200-descuento;
+double totalc=subtotal+iva;
+print('***************************');  
+print('Articulos comprados: 8');
+print('Compra de: 5200');
+print('El descuento del 10% es: $descuento');
+print ('Sobtotal: $subtotal');
+print('Total de compra: $totalc');
+print('***************************');  
+break;
+      
+case "viernes":
+print('           Cosco           ');
+print('***************************');  
+print('Dia de compra:$dia');
+print('***************************');      
+String r = ' Articulo No. ';
+var num = 1;
+while (num < 3){
+var todo = '$r $num';
+print(todo);
+num++; }
+double iva=2900*0.08;
+double descuento=2900*0.25;
+double subtotal=2900-descuento;
+double totalc=subtotal+iva;
+print('***************************'); 
+print('Articulos comprados: 2');
+print('Compra de: 2900');
+print('El descuento del 25% es: $descuento');
+print ('Sobtotal: $subtotal');
+print('Total de compra: $totalc');
+print('***************************');       
+break;   
+} }
